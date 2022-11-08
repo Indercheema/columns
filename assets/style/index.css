@@ -134,6 +134,16 @@ input[type="button"] {
   margin-bottom: 20px;
 }
 
+.box  {
+position: relative;
+}
+
+.option {
+  position: relative;
+  bottom: 20px;
+right: 20px;
+}
+
 div.box > h2 , p {
   margin-top: 10px;
 }
