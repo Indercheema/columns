@@ -186,3 +186,62 @@ h2 {
 }
 
 
+/* -------------------------------*/
+/*  Media queries                 */
+/* -------------------------------*/
+
+/* 
+  1280px and down
+*/
+
+@media (max-width: 1281px) {
+  .column {
+      width: calc(50% - 10px)
+  }
+
+}
+
+/* 
+768px and down
+*/
+
+@media (max-width: 768px) {
+  .column {
+      width: calc(50% - 10px)
+  }
+  .box > h2 {
+      font-size: 22px;
+  }
+
+  .box > p {
+      font-size: 14px;
+  }
+  .btn {
+      font-size: 11px;
+  }
+
+  
+
+}
+  
+
+/* 
+480px and down
+*/
+
+@media (max-width: 480px) {
+  .column {
+      width: 100%;
+  }
+  .banner2-text > h2 {
+      font-size: 20px;
+  }
+
+  .banner2-text > p {
+      font-size: 13px;
+  }
+  .btn {
+      font-size: 11px;
+  }
+
+}
