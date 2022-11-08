@@ -24,7 +24,7 @@ body, p {
 }
 
 h1, h2, h3, a, p, label {
-    color: white;
+    color: #000;
 }
 
 h2 {
@@ -38,7 +38,7 @@ p {
 input[type="button"] {
     width: 120px;
     height: 46px;
-    /* margin-top: 20px; */
+    margin-top: 20px;
     text-align: center;
     background-color: var(--app-blue);
     border: 1px solid var(--app-blue);
@@ -91,7 +91,7 @@ input[type="button"] {
 }
 
 .btn2 {
-  /* margin-top: 30px; */
+  margin-top: 30px;
   font-size: 15px;
   display: inline-block;
   text-align: center;
@@ -130,17 +130,17 @@ input[type="button"] {
   margin-left: 10px;
   text-align: left;
   padding: 20px;
-  /* margin-top: 20px;
-  margin-bottom: 20px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-/* div.box > h2 , p {
+div.box > h2 , p {
   margin-top: 10px;
 }
 
 div.box > div + p  {
   margin-top: 10px;
-} */
+}
 
 
 .card-icon, .card-icon2, .card-icon3, .card-icon4 {
